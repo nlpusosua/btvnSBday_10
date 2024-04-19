@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h1>Bài tập Thymeleaf</h1>
+<h2>List = 10, 5, 3, 12, 6, 7, 5, 3</h2>
+<ul>
+    <li><a th:href="@{/even}">Tìm các giá trị chẵn trong list</a></li>
+    <li><a th:href="@{/greater-than-5}">Tìm các giá trị > 5 trong list</a></li>
+    <li><a th:href="@{/max}">Tìm giá trị max trong list</a></li>
+    <li><a th:href="@{/min}">Tìm giá trị min trong list</a></li>
+    <li><a th:href="@{/sum}">Tính tổng các phần tử của mảng</a></li>
+    <li><a th:href="@{/distinct}">Lấy danh sách các phần tử không trùng nhau</a></li>
+    <li><a th:href="@{/first-five}">Lấy 5 phần tử đầu tiên trong mảng</a></li>
+    <li><a th:href="@{/third-to-fifth}">Lấy phần tử từ thứ 3 -> thứ 5</a></li>
+    <li><a th:href="@{/first-greater-than-5}">Lấy phần tử đầu tiên > 5</a></li>
+</ul>
+</body>
+</html>
